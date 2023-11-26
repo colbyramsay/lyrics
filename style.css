@@ -31,3 +31,8 @@ a {
         filter: saturate(1);
     }
 } 
+
+
+p {
+    color: gray;
+}
