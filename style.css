@@ -1,0 +1,33 @@
+/* { border: 1px solid pink; } */
+
+body {
+    margin: 27px;
+    min-height: 100vh; /* initial body height = 
+    100% of vh: "viewport height" */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: none;
+    font-style: oblique;
+    font-size: large;
+    background-color: black;
+    color: #ffcc33;
+}
+
+a {
+    text-decoration: none;
+    color: #ffcc33;
+    filter: saturate(0);
+    opacity: 0.63;
+    transition-duration: 0.4s;
+    padding: 9px;
+    margin: 0 9px 0 0;
+    border-radius: 6px;
+}
+
+@media (hover: hover) { 
+    a:hover {
+        opacity: 1;
+        filter: saturate(1);
+    }
+} 
