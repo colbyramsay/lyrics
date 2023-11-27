@@ -1,7 +1,8 @@
 /* { border: 1px solid pink; } */
 
 body {
-    margin: 36px;
+    margin: 72px;
+    padding: 0px;
     min-height: 100vh; /* initial body height = 
     100% of vh: "viewport height" */
     display: flex;
@@ -20,8 +21,8 @@ a {
     filter: saturate(0);
     opacity: 0.55;
     transition-duration: 0.4s;
-    padding: 3px;
-    margin: 0;
+    margin: 0 0 0 18px;
+    padding: 3px 6px 3px 6px;
     border-radius: 9px;
 }
 
@@ -32,24 +33,25 @@ a {
     }
 } 
 
-
 p {
     color: #ffcc33;
     filter: saturate(0);
     opacity: 0.55;
-    padding: 0;
-    margin: 18px 0 0 0;
+    margin: 0;
+    padding: 3px;
 }
 
 ol {
-    padding: 0;
-    margin: 18px 0 0 18px;
+    margin: 0;
+    padding: 18px;
 }
 
 li {
     margin: 0 0 9px 0;
+    padding: 0;
 }
 
 h1 {
-    margin:0;
+    margin: 0 0 0 0;
+    padding: 0 0 18px 0;
 }
