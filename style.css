@@ -1,7 +1,7 @@
 /* { border: 1px solid pink; } */
 
 body {
-    margin: 27px;
+    margin: 36px;
     min-height: 100vh; /* initial body height = 
     100% of vh: "viewport height" */
     display: flex;
@@ -18,11 +18,11 @@ a {
     text-decoration: none;
     color: #ffcc33;
     filter: saturate(0);
-    opacity: 0.63;
+    opacity: 0.55;
     transition-duration: 0.4s;
-    padding: 9px;
-    margin: 0 9px 0 0;
-    border-radius: 6px;
+    padding: 3px;
+    margin: 0;
+    border-radius: 9px;
 }
 
 @media (hover: hover) { 
@@ -34,5 +34,22 @@ a {
 
 
 p {
-    color: gray;
+    color: #ffcc33;
+    filter: saturate(0);
+    opacity: 0.55;
+    padding: 0;
+    margin: 18px 0 0 0;
+}
+
+ol {
+    padding: 0;
+    margin: 18px 0 0 18px;
+}
+
+li {
+    margin: 0 0 9px 0;
+}
+
+h1 {
+    margin:0;
 }
