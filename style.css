@@ -1,7 +1,7 @@
 /* { border: 1px solid pink; } */
 
 body {
-    margin: 36px;
+    margin: 27px;
     padding: 0px;
     min-height: 100vh; /* initial body height = 
     100% of vh: "viewport height" */
