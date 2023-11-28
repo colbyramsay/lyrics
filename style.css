@@ -42,6 +42,7 @@ p {
 }
 
 ol {
+    list-style-type: lower-greek;
     margin: 0;
     padding: 18px;
 }
