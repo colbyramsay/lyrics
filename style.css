@@ -79,3 +79,38 @@ button {
     padding: 2px 9px 2px 9px;
     transition-duration: 0.4s;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+}
+
+.arrow {
+    border: solid;
+    border-width: 0 1px 1px 0;
+    display:inline-block;
+    padding: 5px;
+    margin: 0;
+  }
+  
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
