@@ -54,5 +54,11 @@ li {
 
 h1 {
     margin: 0 0 0 0;
-    padding: 0 0 18px 0;
+    padding: 27px 0 18px 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
