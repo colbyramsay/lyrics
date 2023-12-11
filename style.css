@@ -11,7 +11,8 @@ body {
     font-family: Times, serif;
     font-style: oblique;
     font-size: larger;
-    background-color: white;
+    background-color: black;
+    color: #ffcc33;
 }
 
 a {
@@ -59,9 +60,9 @@ h1 {
     font-weight: normal;
 }
 
-.dark-mode {
-    background-color: black;
-    color: #ffcc33;
+.light-mode {
+    background-color: white;
+    color: black;
 }
 
 button {
